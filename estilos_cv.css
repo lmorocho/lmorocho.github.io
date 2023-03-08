@@ -102,6 +102,17 @@ h2 {
     background-color: cyan;
 }
 
+.table {
+    border-width: 0.5px;
+    background-color: black;
+}
+
+tr, td {
+    padding: 2px;
+}
+
+.b5 {border-style: solid;}
+
 /* animacion */
 
 #html-menu{
