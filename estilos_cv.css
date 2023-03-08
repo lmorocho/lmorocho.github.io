@@ -1,0 +1,146 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    left: 50%;
+    background-color: beige;
+}
+
+/*skills */
+
+.caja-padre-sm{
+    width: 50%;
+    min-width: 590px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 50%;
+}
+
+.contenedor{
+    width: 50%;
+    padding: 30px 30px 50px;
+    background: linear-gradient(450deg, lightslategrey, black);
+    border: 1.5px solid rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.contenedor *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.caja-padre-form-sm{
+    width: 50%;
+    min-width: 590px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 50%;
+}
+
+.contenedor-form{
+    width: 80%;
+    padding: 30px 30px 50px;
+    background: linear-gradient(450deg, lightslategrey, black);
+    border: 1.5px solid rgba(0, 0, 0, 0.06);
+    border-radius: 50px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.contenedor-form *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.boton {
+    color: black;
+
+}
+
+h2 {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+/* animacion */
+
+#html-menu{
+    animation: html-barra 3s forwards;
+}
+
+@keyframes html-barra{
+     100%{
+        width: 82%;
+     }   
+}
+
+#js-menu{
+    animation: js-barra 3s forwards;
+}
+
+@keyframes js-barra{
+     100%{
+        width: 21%;
+     }   
+}
+
+#css-menu{
+    animation: css-barra 3s forwards;
+}
+
+@keyframes css-barra{
+     100%{
+        width: 75%;
+     }   
+}
+
+#phyton-menu{
+    animation: phyton-barra 3s forwards;
+}
+
+@keyframes phyton-barra{
+     100%{
+        width: 55%;
+     }   
+}
+
